@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnPlus"
+        style="@style/btn_style"
+        android:textColor="@color/custom_color_background"
+        android:text="+"
+        tools:ignore="InvalidId" />
+
+    <Button
+        android:id="@+id/btnMinus"
+        style="@style/btn_style"
+        android:textColor="@color/custom_color_background"
+        android:layout_below="@id/btnPlus"
+        android:text="-"
+        tools:ignore="InvalidId" />
+
+    <!--    <Button-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Замени меня"-->
+    <!--        android:id="@+id/b_replace_fragment_one"-->
+    <!--        android:layout_centerInParent="true"-->
+    <!--        android:layout_marginHorizontal="20dp"/>-->
+</RelativeLayout>
