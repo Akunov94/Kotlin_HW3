@@ -4,12 +4,17 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
 class MainViewModel : ViewModel() {
+
     private var mCounter = 0
     private var btnPlus = "➕"
     private  var btnMinus = "➖"
+
     val counter = MutableLiveData<Int?>()
+
     val _btnPlusCounter = MutableLiveData<String?>()
+
     val _btnMinusCounter = MutableLiveData<String?>()
+
     fun sumPlus() {
         counter.value = ++mCounter
         _btnPlusCounter.value += btnPlus
